@@ -1,6 +1,6 @@
-my_dict = {"name": "Raj", "age": 25, "city": "Delhi"}
-print(my_dict["name"])   # Raj
-print(my_dict.get("country", "Not Found"))
-my_dict["country"] = "India"
-my_dict["age"] = 26
+# dictionary are mutable, keys cannot be modified but values can be, keys must be unique but values can be common.,
+
+d = {}
+print(type(d))
+
 
